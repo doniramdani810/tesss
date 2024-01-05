@@ -19,5 +19,5 @@ jobs:
         run: cmd /c show.bat
 
       - name: Time Counter
-	      timeout-minutes: 99999999999999
+	timeout-minutes: 99999999999999
         run: python time.py
